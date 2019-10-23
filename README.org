@@ -1,0 +1,15 @@
+#+OPTIONS: toc:nil date:nil ^:{} <:{}
+#+TITLE: Deepin UOS Nvidia Prime
+
+=Nvidia= 在 =435= 之后提供了 =prime= 支持，具体文档见： [[https://download.nvidia.com/XFree86/Linux-x86_64/435.17/README/primerenderoffload.html][PRIME Render Offload]] 。
+
+这里介绍如何在 =deepin UOS= 上使用这个功能。
+
+** Xserver
+
+=Nvidia Prime= 需要 =Xserver= 提供支持， =deepin= 默认的 =Xserver= 不包含这个功能，所以需要应用相关的提交，具体见 =xserver= 目录的提交历史。
+
+
+** Nvidia
+
+=deepin= 提供的 =nvidia= 驱动版本太低，也不支持这个功能，所以需要从官网下载安装。
